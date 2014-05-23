@@ -95,6 +95,7 @@ h1.title {
 .best-container:after {
   content: "Best"; }
 
+
 p {
   margin-top: 0;
   margin-bottom: 10px;
@@ -308,33 +309,46 @@ hr {
   .tile .tile-inner {
     border-radius: 3px;
     background: #eee4da;
-    text-align: center;
+    text-align: right;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 20px; }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+    background-image:url("rsz_1img-20140521-wa0000.jpg") ;
+    background-repeat:no-repeat; }
   .tile.tile-4 .tile-inner {
     background: #ede0c8;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+    background-image:url("IMG-20140201-WA0001.jpg") ;
+    background-repeat:no-repeat; }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-    background: #f2b179; }
+    background: #f2b179;
+    background-image:url("IMG_20131120_184228.jpg") ;
+    background-repeat:no-repeat; }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
+    background: #f59563;
+    background-image:url("IMG-20140308-WA0009.jpg") ;
+    background-repeat:no-repeat; }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
+    background: #f67c5f;
+    background-image:url("IMG-20140309-WA0001.jpg") ;
+    background-repeat:no-repeat; }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b; }
+    background: #f65e3b;
+    background-image:url("IMG-20140308-WA0008.jpg") ;
+    background-repeat:no-repeat; }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    background-image:url("IMG-20140211-WA0005.jpg") ;
+    background-repeat:no-repeat; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
@@ -342,7 +356,8 @@ hr {
     color: #f9f6f2;
     background: #edcc61;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    background-image:url("IMG-20140210-WA0010.jpg") ;
+    background-repeat:no-repeat; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
@@ -350,7 +365,8 @@ hr {
     color: #f9f6f2;
     background: #edc850;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
+    background-image:url("IMG-20140210-WA0009.jpg") ;
+    background-repeat:no-repeat; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
@@ -358,7 +374,8 @@ hr {
     color: #f9f6f2;
     background: #edc53f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
+    background-image:url("IMG-20140219-WA0003.jpg") ;
+    background-repeat:no-repeat; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
@@ -366,14 +383,16 @@ hr {
     color: #f9f6f2;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
+    background-image:url("IMG-20140211-WA0010.jpg") ;
+    background-repeat:no-repeat; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
-    font-size: 30px; }
+    background-image:url("IMG-20130726-WA0006.jpg") ;
+    background-repeat:no-repeat; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
